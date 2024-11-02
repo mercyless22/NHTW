@@ -1,0 +1,87 @@
+/* Home Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e2e8f0;
+}
+
+.intro h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.intro p {
+    margin-bottom: 20px;
+}
+
+.btnview {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.btnview:hover {
+    background-color: #2980b9;
+}
+
+/* Carousel Images */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2; /* Maintain 1800x1200 ratio */
+    border-radius: 20px;
+    
+}
+.carousel-item h5{
+    color: darkred;
+}
+.carousel-item p{
+    color: darkred;
+}
+.carousel-control-prev{
+    color: #333;
+}
+/* Card Images */
+.card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2; /* Maintain 1800x1200 ratio */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

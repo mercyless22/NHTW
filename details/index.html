@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="details.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        /* Enhanced Styling for Product Details */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+            color: #495057;
+        }
+
+        .product-details {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product-details img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-details h1 {
+            font-size: 2rem;
+            color: #d4af37;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .product-details p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            color: #495057;
+            line-height: 1.6;
+        }
+
+        .product-details strong {
+            color: #d4af37;
+        }
+
+        /* Back Button Styling */
+        #back-button {
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #d4af37;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        #back-button:hover {
+            background-color: #b8912a;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        // Function to load external HTML components
+        function loadComponent(url, targetElementId, callback) {
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Error loading ${url}: ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById(targetElementId).innerHTML = data;
+                    if (callback) callback(); // Call the callback after loading the component
+                })
+                .catch(error => {
+                    console.error(error);
+                    document.getElementById(targetElementId).innerHTML = `<p>Unable to load content. Please try again later.</p>`;
+                });
+        }
+
+        // Load the navbar and footer HTML
+        loadComponent('/navbar', 'navbar-placeholder');
+        loadComponent('/footer', 'footer-placeholder');
+    </script>
+
+    <div class="product-details">
+        <img id="product-image" src="" alt="Product Image">
+        <h1 id="product-name">Product Name</h1>
+        <p id="product-description">Product description will appear here.</p>
+    
+        <p><strong>Dimensions:</strong> <span id="product-dimensions">N/A</span></p>
+        <p><strong>Category:</strong> <span id="product-category">N/A</span></p>
+
+        <!-- Back Button -->
+        <button id="back-button" onclick="window.location.href='/products'">Go Back</button>
+    </div>
+
+    <!-- Footer placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Product details script -->
+    <script src="details.js"></script>
+
+    <!-- Required Bootstrap and jQuery libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

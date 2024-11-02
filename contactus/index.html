@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - NHTW</title>
+    <!-- Include Bootstrap CSS for better styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Include custom CSS file -->
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        .contact-card {
+            height: 300px; /* Set a fixed height for all contact cards */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrapped-paragraph {
+            text-align: center; /* Center text for better appearance */
+            overflow: hidden; /* Prevent overflow */
+            text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+            white-space: nowrap; /* Prevent wrapping */
+            width: 100%; /* Ensure it takes the full width of the card */
+            max-width: 250px; /* Set a max-width to control the display */
+            cursor: pointer; /* Show pointer cursor to indicate clickability */
+        }
+
+        .full-address {
+            display: none; /* Hide the full address by default */
+        }
+    </style>
+</head>
+<body>
+  
+      <script>
+          // Function to load external HTML components
+          function loadComponent(url, targetElementId, callback) {
+              fetch(url)
+                  .then(response => {
+                      if (!response.ok) {
+                          throw new Error(`Error loading ${url}: ${response.statusText}`);
+                      }
+                      return response.text();
+                  })
+                  .then(data => {
+                      document.getElementById(targetElementId).innerHTML = data;
+                      if (callback) callback(); // Call the callback after loading the component
+                  })
+                  .catch(error => {
+                      console.error(error);
+                      document.getElementById(targetElementId).innerHTML = `<p>Unable to load content. Please try again later.</p>`;
+                  });
+          }
+  
+          // Load the navbar and footer HTML
+          loadComponent('/navbar', 'navbar-placeholder', function() {
+              // You can initialize scripts related to the navbar here if needed
+          });
+          loadComponent('/footer', 'footer-placeholder', function() {
+              // You can initialize scripts related to the footer here if needed
+          });
+       
+      </script>
+    <!-- Navbar placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <div class="container mt-5 contact-section text-center">
+        <h1 class="mb-4">Get in Touch with Us</h1>
+        <p class="mb-5">We are here to assist you! Reach out to us through any of the methods below.</p>
+
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="contact-card shadow p-4">
+                    <i class="fas fa-phone-alt fa-2x mb-3"></i>
+                    <h3 class="mb-3">Phone</h3>
+                    <p><a href="tel:+918045167922" class="phone-link">+91 80451 67922</a></p>
+                    <p><a href="tel:+919638941564" class="phone-link">+91 96389 41564</a></p>          
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="contact-card shadow p-4">
+                    <a href="mailto:tahermtravadi786@gmail.com?subject=Inquiry%20About%20Your%20Products&body=Dear%20NHTW,%0D%0A%0D%0A">
+                        <i class="fas fa-envelope fa-2x mb-3"></i>
+                    </a>
+                    <h3 class="mb-3">Email</h3>
+                    <p><a href="mailto:info@nhtw.com" class="email-link">info@nhtw.com</a></p>
+                    <p><a href="mailto:support@nhtw.com" class="email-link">support@nhtw.com</a></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="contact-card shadow p-4">
+                    <a href="https://g.co/kgs/4AfFE5Z">
+                        <i class="fas fa-map-marker-alt fa-2x mb-3"></i>
+                    </a>
+                    <h3 class="mb-3">Address</h3>
+                    <p>New Hakimi Tin Works</p>
+                    <p class="wrapped-paragraph" onclick="toggleAddress()">Bhavnagar Rd, opp. Thorala Police Station, near Chunaravad Chok, Shivaji Nagar, Shakti Industrial Zone, Rajkot, Gujarat 360003</p>
+                    <p class="full-address" id="full-address">Bhavnagar Rd, opp. Thorala Police Station, near Chunaravad Chok, Shivaji Nagar, Shakti Industrial Zone, Rajkot, Gujarat 360003</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Include required Bootstrap and jQuery libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        function toggleAddress() {
+            const fullAddress = document.getElementById('full-address');
+            if (fullAddress.style.display === "none") {
+                fullAddress.style.display = "block"; // Show full address
+            } else {
+                fullAddress.style.display = "none"; // Hide full address
+            }
+        }
+    </script>
+</body>
+</html>

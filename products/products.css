@@ -1,0 +1,198 @@
+/* Carousel Styling */
+body {
+   
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+.carousel-item img {
+    height: auto; /* Set to auto for better responsiveness */
+    width: 100%;  /* Use 100% width for the carousel images */
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.best-sellers h2 {
+    margin-bottom: 30px;
+}
+
+.product-categories h2, .product-categories h3 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    
+}
+.product-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+    border-radius: 10px;
+}
+
+
+.product-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.product-card.flipped .product-content {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.front {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.back {
+    background-color: #f8f9fa;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    padding: 20px;
+    text-align: center;
+}
+
+.inner p {
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: black;
+    color: gold;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.product-card {
+    width: 300px; /* Adjust width */
+    height: 200px; /* Maintain 3:2 ratio (1800:1200 == 3:2) */
+    perspective: 1000px;
+    cursor: pointer; /* Indicate the card is clickable */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Animate shadow and transform */
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+/* Center and style the main heading */
+.product-categories h2 {
+    font-size: 2.5rem;
+    color: #d4af37; /* Gold color for heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #d4af37;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+/* Category Name Styling */
+.product-categories h3 {
+    font-size: 2rem;
+    color: #333; /* Dark color for contrast */
+    font-weight: bold;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    position: relative;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/* Add a left border to category names */
+.product-categories h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 5px;
+    height: 100%;
+    background-color: #d4af37; /* Gold color for left border */
+}
+
+/* Category section spacing */
+.product-categories .row {
+    margin-top: 1rem;
+}
+
+/* Style product cards */
+.product-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card .front {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.product-card .back {
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.product-card .inner p {
+    color: #666;
+}
+
+.product-card .button {
+    background-color: #d4af37; /* Gold button */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.product-card .button:hover {
+    background-color: #b8912a; /* Darker gold on hover */
+    color: #fff;
+}

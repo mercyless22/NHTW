@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Hakimi Tin Works</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="New Hakimi Tin Works - Your trusted manufacturer of high-quality tin and aluminum products. Explore our vast range of 80+ items.">
+    <meta name="keywords" content="tin products, aluminum products, manufacturer, NHTW, New Hakimi Tin Works, tin manufacturer, aluminum manufacturer">
+    <link rel="canonical" href="https://yourwebsite.com/index.html">
+    <meta property="og:title" content="New Hakimi Tin Works (NHTW) - Tin and Aluminum Products">
+    <meta property="og:description" content="Explore high-quality tin and aluminum products from New Hakimi Tin Works. We offer over 80 different products.">
+    <meta property="og:image" content="https://yourwebsite.com/path-to-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/index.html">
+    <meta property="og:type" content="website">
+
+
+    <style>
+        /* Enhanced Styling */
+        .container2 {
+            margin-top: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            padding: 30px;
+        }
+
+        .catalog-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f4f8fb;
+            border-left: 6px solid #d4af37;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .catalog-section h4 {
+            font-size: 1.75rem;
+            color: #d4af37;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .catalog-section p {
+            font-size: 1.1rem;
+            color: #495057;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .catalog-section a {
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #d4af37;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .catalog-section a:hover {
+            background-color: #b8912a;
+            color: #e0f7ff;
+        }
+
+        /* Intro Section */
+        .intro {
+            text-align: center;
+            background-color: #f4f8fb;
+            padding: 50px 20px;
+            border-radius: 8px;
+            margin: 40px auto;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro h2 {
+            color: #d4af37;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            color: #495057;
+            margin-bottom: 20px;
+        }
+
+        .btnview {
+            font-size: 1.25rem;
+            color: #fff;
+            background-color: #d4af37;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .btnview:hover {
+            background-color: #b8912a;
+        }
+
+        /* Carousel Styling */
+        .carousel-inner img {
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: #d4af37;
+            border-radius: 50%;
+        }
+
+        /* Product Category Cards */
+        .card {
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-body {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            color: #d4af37;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #495057;
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            background-color: #d4af37;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #b8912a;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navbar placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        // Function to load external HTML components
+        function loadComponent(url, targetElementId, callback) {
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Error loading ${url}: ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById(targetElementId).innerHTML = data;
+                    if (callback) callback(); // Call the callback after loading the component
+                })
+                .catch(error => {
+                    console.error(error);
+                    document.getElementById(targetElementId).innerHTML = `<p>Unable to load content. Please try again later.</p>`;
+                });
+        }
+
+        // Load the navbar and footer HTML
+        loadComponent('/navbar', 'navbar-placeholder');
+        loadComponent('/footer', 'footer-placeholder');
+        
+       
+    </script>
+
+
+
+    <section class="best-sellers my-5">
+        <div class="container">
+          
+            <div id="bestSellersCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/product (12).jpg" class="d-block w-100" alt="Best Seller 1">
+                        <div class="carousel-caption">
+                   
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/product (46).jpg" class="d-block w-100" alt="Best Seller 2">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                       <div class="carousel-item">
+                        <img src="/images/product (31).jpg" class="d-block w-100" alt="Best Seller 2">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <!-- Add more carousel items as needed -->
+                </div>
+                <a class="carousel-control-prev" href="#bestSellersCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#bestSellersCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <h2>Your Trusted Galvanize And Steel Manufacturer</h2>
+        <p>At NHTW, we offer high-quality tin and aluminum products. With over 80 different products, we provide precision and reliability in every product.</p>
+        <a href="/products" class="btnview">View Products</a>
+    </section>
+
+    <!-- Product Gallery Section -->
+    <!-- <div class="container my-4">
+        <h3 class="text-center">BEST SELLER PRODUCTS</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/product (12).jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Tata Galvanized Grain Storage Box</h5>
+                        <p class="card-text">Description of product 4.</p>
+                        <a href="product-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/product (38).jpg" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 5</h5>
+                        <p class="card-text">Description of product 5.</p>
+                        <a href="product-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/product (12).jpg" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 6</h5>
+                        <p class="card-text">Description of product 6.</p>
+                        <a href="product-details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Category Gallery Section -->
+    <div class="container my-4">
+        <h3 class="text-center">PRODUCT CATEGORIES</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                   
+                    <div class="card-body">
+                        <h5 class="card-title">Storage Solutions</h5>
+                        <p class="card-text">Explore our products in this category.</p>
+                       <a href="/products/index.html?category=Storage Solutions" class="btnview">View Category</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                   
+                    <div class="card-body">
+                        <h5 class="card-title">Bakery & Kitchen Items</h5>
+                        <p class="card-text">Explore our products in this category.</p>
+                        <a href="/products/index.html?category=Bakery And Kitchen Items" class="btnview">View Category</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  
+                    <div class="card-body">
+                        <h5 class="card-title">Serving Items</h5>
+                        <p class="card-text">Explore our products in this category.</p>
+                       
+                        <a href="/products/index.html?category=Serving Items" class="btnview">View Category</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+         <div class="row">
+             <div class="col-md-4">
+                <div class="card">
+                   
+                    <div class="card-body">
+                        <h5 class="card-title">Other Miscellaneous</h5>
+                        <p class="card-text">Explore our products in this category.</p>
+                        <a href="/products/index.html?category=Other Miscellaneous" class="btnview">View Category</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Industrial Chimney</h5>
+                        <p class="card-text">Explore our products in this category.</p>
+                        <a href="/products/index.html?category=Industrial And Commerical Chimney" class="btnview">View Category</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <div class="container2">
+        <div class="catalog-section">
+            <h4>Explore Our Product Catalog on IndiaMART</h4>
+            <p>Discover the extensive range of tin and aluminum products we manufacture and supply. From kitchenware to industrial materials, our catalog on IndiaMART showcases the finest quality products that meet the highest standards.</p>
+            <p>We offer both standard and custom-made solutions to cater to your specific needs. Click the link below to view our complete catalog and find the perfect products for your business.</p>
+            <a href="https://IndiaMART.in/xMamDjV0" target="_blank">View Our Catalog</a>
+        </div>
+    </div>
+    
+    <div class="container2">
+        <div class="catalog-section">
+            <h4>Explore Our Product Catalog on Justdial</h4>
+            <p>Discover the extensive range of tin and aluminum products we manufacture and supply. From kitchenware to industrial materials, our catalog on IndiaMART showcases the finest quality products that meet the highest standards.</p>
+            <p>We offer both standard and custom-made solutions to cater to your specific needs. Click the link below to view our complete catalog and find the perfect products for your business.</p>
+            <a href="https://www.justdial.com/jdmart/Rajkot/New-Hakimi-Tin-Works-Bhavnagar-Road/0281PX281-X281-240202132500-A9B4_BZDET/catalogue" target="_blank">View Our Catalog</a>
+        </div>
+    </div>
+    <div id="footer-placeholder"></div>
+
+    <!-- Required Bootstrap and jQuery libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

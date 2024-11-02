@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Loading Animation with Delay</title>
+    <style>
+        /* Loader style */
+        #loader {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+
+        /* Hide the loader after delay */
+        body.loaded #loader {
+            display: none;
+        }
+
+        /* Hide the content initially */
+        #content {
+            display: none;
+        }
+
+        /* Show content after loader is hidden */
+        body.loaded #content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Loader GIF -->
+    <div id="loader">
+        <img src="images/image_processing20200331-10747-18elhqj.gif" alt="Loading..." />
+    </div>
+
+    <!-- Page content -->
+    <div id="content">
+        <h1>Content of the Page</h1>
+        <p>This is the main content of your page that will be displayed after the loading animation.</p>
+    </div>
+
+    <script>
+        // Simulate page loading with a 5-second delay
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.body.classList.add('loaded');
+            }, 5000); // Delay of 5000 milliseconds (5 seconds)
+        });
+    </script>
+
+</body>
+</html>

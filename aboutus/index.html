@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://drive.google.com https://accounts.google.com;">
+    <title>About Us</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light background */
+        }
+        .container2 {
+            margin-top: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin-top: 40px;
+            color: #495057;
+        }
+        p {
+            text-align: justify;
+            color: #6c757d;
+            line-height: 1.6;
+        }
+        .row {
+            justify-content: center;
+        }
+        .profile-card {
+            margin: 20px;
+            max-width: 300px;
+            flex-grow: 1; /* Ensures consistent card sizing */
+        }
+        .card {
+            width: 100%;
+            height: 100%; /* Ensures the card takes full height */
+            border: none;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-img-top {
+            height: 200px; /* Uniform image height */
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Space out title and text naturally */
+            height: 100%; /* Ensure the card body stretches */
+        }
+        .card-title {
+            font-size: 1.25rem;
+            color: #343a40;
+            margin: 10px 0;
+        }
+        .card-text {
+            color: #6c757d;
+            display: none; /* Initially hide the full text */
+        }
+        .card-text.short {
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* Limit text to 3 lines */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .read-more-btn {
+            color: #d4af37;
+            cursor: pointer;
+        }
+        .gst-section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #e9ecef; /* Light grey background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+}
+
+.gst-section h2 {
+    color: #d4af37; /* Highlight the heading in blue */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.gst-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057; /* Darker text for readability */
+    margin-bottom: 15px;
+}
+
+.gst-section p strong {
+    color: #343a40; /* Darker text for labels */
+}
+
+iframe {
+    margin-top: 20px;
+    border: 2px solid #ced4da; /* Subtle border for the iframe */
+    border-radius: 10px;
+    width: 100%; 
+    height: 500px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the iframe */
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- Navbar placeholder -->
+    <div id="navbar-placeholder"></div>
+    <div class="loading" id="loading">Loading...</div>
+
+    <script>
+        function loadComponent(url, targetElementId, callback) {
+            document.getElementById('loading').style.display = 'block';
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(targetElementId).innerHTML = data;
+                    document.getElementById('loading').style.display = 'none';
+                    if (callback) callback();
+                })
+                .catch(error => console.error(error));
+        }
+
+        loadComponent('/navbar', 'navbar-placeholder');
+        loadComponent('/footer', 'footer-placeholder');
+    </script>
+
+    <div class="container2">
+        <h1>Welcome to New Hakimi Tin Works</h1>
+    
+
+        <h3> History :</h3>
+     
+        <p>New Hakimi Tin Works (NHTW) has a rich legacy that dates back to its founding by Abdulhusain Bhai Daudbhai Sadikot in the town of Kutiyana. With a vision for quality craftsmanship and a commitment to excellence, he laid the groundwork for a thriving tin and aluminum products business.
+        As the business grew, it was expanded by his son, Isaji Bhai, who moved operations to Rajkot. Under his leadership, NHTW flourished and became a recognized name in the region, known for its innovative designs and high-quality products.
+        Today, the business is proudly continuing into its third generation, with Mustafa actively engaged in transforming NHTW for the modern era. Embracing digital advancements, Mustafa is committed to taking the business online, reaching new customers, and elevating the brand to new heights.
+        NHTW remains dedicated to its core values of quality, service, and innovation, ensuring that the legacy established by Abdulhusain Bhai continues to thrive.</p>
+
+        <h2>Meet Our Team</h2>
+        <div class="row">
+            <!-- Team Cards -->
+            <div class="col-md-3 profile-card">
+                <div class="card">
+                    <img src="/images/WhatsApp Image 2024-10-19 at 17.29.35_7c097ce51.jpg" class="card-img-top" alt="Isaji Bhai Sadikot">
+                    <div class="card-body">
+                        <h5 class="card-title">Isaji Bhai Sadikot</h5>
+                        <p class="card-text short">Owner and founder of NHTW. Passionate about quality craftsmanship and customer satisfaction. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="card-text full">Owner and founder of NHTW. Passionate about quality craftsmanship and customer satisfaction. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aut temporibus et eligendi quam, earum recusandae doloribus modi quo.</p>
+                        <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 profile-card">
+                <div class="card">
+                    <img src="/images/WhatsApp Image 2024-10-19 at 17.29.35_7c097ce5.jpg" class="card-img-top" alt="Mustafa Sadikot">
+                    <div class="card-body">
+                        <h5 class="card-title">Mustafa Sadikot</h5>
+                        <p class="card-text short">Co-owner and manager of NHTW. Focused on innovation and operational excellence. Lorem ipsum dolor sit amet.</p>
+                        <p class="card-text full">Co-owner and manager of NHTW. Focused on innovation and operational excellence. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quisquam accusamus minus perspiciatis, repellat recusandae earum velit?</p>
+                        <span class="read-more-btn">Read More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- GST Details Section -->
+        <div class="gst-section">
+            <h2>GST Details</h2>
+            <p><strong>GST Number:</strong> 24ACNPV6305L1Z4</p>
+            <p><strong>Nature of Business:</strong> Manufacturing and Trading of Tin and Aluminum Products.</p>
+            <p>For more information about our GST registration, please refer to our GST certificate below:</p>
+            <iframe src="https://drive.google.com/file/d/1bg4oXc7NhAajz5V1bhKGXBdox7zMhLBP/preview" allow="autoplay"></iframe>
+        </div>
+
+         <div class="gst-section">
+            <h2>IndiaMart certificate</h2>
+          
+            <p>We are official certified partner with indiamart :</p>
+            
+            <iframe src="https://drive.google.com/file/d/1FjZVKajt6Jo9C0ocDgkcmNBw9SczHyLg/preview" width="640" height="480" allow="autoplay"></iframe>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        // Toggle the visibility of the full text
+        document.querySelectorAll('.read-more-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const cardBody = this.parentElement;
+                const shortText = cardBody.querySelector('.card-text.short');
+                const fullText = cardBody.querySelector('.card-text.full');
+
+                if (shortText.style.display === 'none') {
+                    shortText.style.display = '-webkit-box'; // Show short text
+                    fullText.style.display = 'none'; // Hide full text
+                    this.textContent = 'Read More';
+                } else {
+                    shortText.style.display = 'none'; // Hide short text
+                    fullText.style.display = 'block'; // Show full text
+                    this.textContent = 'Read Less';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

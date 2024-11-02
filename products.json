@@ -1,0 +1,500 @@
+{
+    "products": [
+      {
+        "id": "htw202401",
+        "name": "Steel Container",
+        "description": "A high-quality tin container for industrial use.",
+        "image": "/images/product (1).jpg",
+        "price": "50",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202402",
+        "name": "Chilly Cutter Box",
+        "description": "Durable aluminum sheets for roofing and construction.",
+        "image": "/images/product (2).jpg",
+        "price": "75",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202403",
+        "name": "Pizaa Cutter",
+        "description": "Perfect for storing food items securely.",
+        "image": "/images/product (3).jpg",
+        "price": "30",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202404",
+        "name": "Bakery All Items",
+        "description": "Heavy-duty aluminum foil for cooking and storage.",
+        "image": "/images/product (4).jpg",
+        "price": "20",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202405",
+        "name": "Galvanized Kirana Box ",
+        "description": "A rust-resistant bucket, ideal for all uses.",
+        "image": "/images/product (5).jpg",
+        "price": "15",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202406",
+        "name": "Galvanize Drip Tray",
+        "description": "Lightweight and sturdy aluminum ladder.",
+        "image": "/images/product (6).jpg",
+        "price": "150",
+        "dimensions": "1800x1200",
+        "category": "Serving Items"
+      },
+      {
+        "id": "htw202407",
+        "name": "Stainless Steel Kathrot",
+        "description": "Perfect for craft and industrial applications.",
+        "image": "/images/product (7).jpg",
+        "price": "40",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202408",
+        "name": "Steel Grain Storage BOx",
+        "description": "Versatile aluminum profiles for construction.",
+        "image": "/images/product (8).jpg",
+        "price": "100",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202409",
+        "name": "Galvanized Grain Storage Box",
+        "description": "Elegant tin tray for serving and decor.",
+        "image": "/images/product (9).jpg",
+        "price": "25",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202410",
+        "name": "Box Stand",
+        "description": "Ideal for beverages and food storage.",
+        "image": "/images/product (10).jpg",
+        "price": "10",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202411",
+        "name": "Bank Security Trunk",
+        "description": "Essential tool for pouring liquids with precision.",
+        "image": "/images/product (11).jpg",
+        "price": "18",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202412",
+        "name": "Tata Galvanized Grain Storage Box",
+        "description": "Lightweight and durable window frames.",
+        "image": "/images/product (12).jpg",
+        "price": "85",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202413",
+        "name": "400Kg Grain Storage Box",
+        "description": "Robust dustpan for efficient cleaning.",
+        "image": "/images/product (13).jpg",
+        "price": "12",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202414",
+        "name": "240 Kg Steel Grain Storage Box",
+        "description": "Stylish aluminum railing for staircases.",
+        "image": "/images/product (14).jpg",
+        "price": "120",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202415",
+        "name": "Stainless Steel Milk Can",
+        "description": "Classic tin ashtray for home or office.",
+        "image": "/images/product (15).jpg",
+        "price": "10",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202416",
+        "name": "200kg Steel Grain Storage Box",
+        "description": "Durable exhaust pipe for vehicles.",
+        "image": "/images/product (16).jpg",
+        "price": "95",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202417",
+        "name": "Heavy Duty Galvanized Box (200Kg)",
+        "description": "Perfect for straining liquids or solids.",
+        "image": "/images/product (17).jpg",
+        "price": "22",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202418",
+        "name": "Heavy Duty Galvanized Box (300Kg)",
+        "description": "Keeps your beverages hot or cold.",
+        "image": "/images/product (18).jpg",
+        "price": "35",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202419",
+        "name": "Steel Grocery Store Box",
+        "description": "Stylish lunch box for meals on the go.",
+        "image": "/images/product (19).jpg",
+        "price": "28",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202420",
+        "name": "Ghughra Container",
+        "description": "For organizing electrical cables safely.",
+        "image": "/images/product (20).jpg",
+        "price": "60",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202421",
+        "name": "Amplifier Box",
+        "description": "Ideal for chilling beverages at parties.",
+        "image": "/images/product (21).jpg",
+        "price": "45",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202422",
+        "name": "Caterers Plate & Bowl Box",
+        "description": "Durable plates for food serving.",
+        "image": "/images/product (22).jpg",
+        "price": "55",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202423",
+        "name": "Sweets Tray & Chowki",
+        "description": "Versatile bowl for cooking and serving.",
+        "image": "/images/product (23).jpg",
+        "price": "20",
+        "dimensions": "1800x1200",
+        "category": "Serving Items"
+      },
+      {
+        "id": "htw202424",
+        "name": "Imitation Drum",
+        "description": "Sturdy storage solution for various items.",
+        "image": "/images/product (24).jpg",
+        "price": "65",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202425",
+        "name": "Wiring Storage Box",
+        "description": "Perfect for accurate measurements in cooking.",
+        "image": "/images/product (25).jpg",
+        "price": "18",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202426",
+        "name": "Bakery Tray & Chowki",
+        "description": "Heavy-duty scoop for bulk items.",
+        "image": "/images/product (26).jpg",
+        "price": "12",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202427",
+        "name": "Wiring Storage Box",
+        "description": "Unique decorative pieces for home.",
+        "image": "/images/product (27).jpg",
+        "price": "30",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202428",
+        "name": "6 Fan Storage Box",
+        "description": "Store your ladder safely and securely.",
+        "image": "/images/product (28).jpg",
+        "price": "80",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202429",
+        "name": "Clothes Trunk",
+        "description": "Elegant holder for candles.",
+        "image": "/images/product (29).jpg",
+        "price": "16",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202430",
+        "name": "File Box",
+        "description": "Durable hinges for doors and gates.",
+        "image": "/images/product (30).jpg",
+        "price": "25",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202431",
+        "name": "6 Fan Storage Box",
+        "description": "Stylish frames for photos or artwork.",
+        "image": "/images/product (31).jpg",
+        "price": "32",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202432",
+        "name": "Round Hole Tub",
+        "description": "Finishing touches for your projects.",
+        "image": "/images/product (32).jpg",
+        "price": "28",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202433",
+        "name": "Soup Bowl Caterers Storage Box",
+        "description": "Charming decor for outdoor spaces.",
+        "image": "/images/product (33).jpg",
+        "price": "40",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202434",
+        "name": "Bank Security Trunk",
+        "description": "Versatile mesh for various applications.",
+        "image": "/images/product (34).jpg",
+        "price": "55",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202435",
+        "name": "Steel Drip Tray",
+        "description": "Decorative tin box for gifting.",
+        "image": "/images/product (35).jpg",
+        "price": "22",
+        "dimensions": "1800x1200",
+        "category": "Serving Items"
+      },
+      {
+        "id": "htw202436",
+        "name": "IceCream Container",
+        "description": "Strong panels for various applications.",
+        "image": "/images/product (36).jpg",
+        "price": "90",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202437",
+        "name": "Stainless Steel Donation Box",
+        "description": "Stylish tin necklace for everyday wear.",
+        "image": "/images/product (37).jpg",
+        "price": "15",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202438",
+        "name": "Galvanize Tray Set",
+        "description": "Elegant box for storing jewelry.",
+        "image": "/images/product (38).jpg",
+        "price": "35",
+        "dimensions": "1800x1200",
+        "category": "Serving Items"
+      },
+      {
+        "id": "htw202439",
+        "name": "Steel Tray Set",
+        "description": "Collectible tin model of classic cars.",
+        "image": "/images/product (39).jpg",
+        "price": "50",
+        "dimensions": "1800x1200",
+        "category": "Serving Items"
+      },
+      {
+        "id": "htw202440",
+        "name": "Bakery Colour Coated Boxes",
+        "description": "Handy holder for cans and bottles.",
+        "image": "/images/product (40).jpg",
+        "price": "10",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202441",
+        "name": "Steel Stove",
+        "description": "Stylish pot for indoor plants.",
+        "image": "/images/product (41).jpg",
+        "price": "20",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202442",
+        "name": "Grocery Store Box",
+        "description": "Lightweight dustpan for easy cleanup.",
+        "image": "/images/product (42).jpg",
+        "price": "15",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202443",
+        "name": "Bain Marie",
+        "description": "Charming lantern for outdoor spaces.",
+        "image": "/images/product (43).jpg",
+        "price": "35",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202444",
+        "name": "Steel Box",
+        "description": "Perfect for baking and roasting.",
+        "image": "/images/product (44).jpg",
+        "price": "25",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202445",
+        "name": "Iron Stove",
+        "description": "Fun shapes for baking cookies.",
+        "image": "/images/product (45).jpg",
+        "price": "10",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202446",
+        "name": "Bakery Colour Coated Boxes",
+        "description": "Durable grill for outdoor cooking.",
+        "image": "/images/product (46).jpg",
+        "price": "150",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202447",
+        "name": "Transparent Donation Box",
+        "description": "Keeps your bread fresh and protected.",
+        "image": "/images/product (47).jpg",
+        "price": "45",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202448",
+        "name": "Boxes According To Size",
+        "description": "Stylish rack for storing wine bottles.",
+        "image": "/images/product (48).jpg",
+        "price": "120",
+        "dimensions": "1800x1200",
+        "category": "Other Miscellaneous"
+      },
+      {
+        "id": "htw202449",
+        "name": "Running Colour Coated Box",
+        "description": "Elegant platter for serving food.",
+        "image": "/images/product (49).jpg",
+        "price": "30",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202450",
+        "name": "Bakery Colour Coated Boxes",
+        "description": "Sturdy workbench for various projects.",
+        "image": "/images/product (50).jpg",
+        "price": "200",
+        "dimensions": "1800x1200",
+        "category": "Storage Solutions"
+      },
+      {
+        "id": "htw202451",
+        "name": "Partitioned Tray",
+        "description": "Cute tin bank for saving coins.",
+        "image": "/images/product (51).jpg",
+        "price": "18",
+        "dimensions": "1800x1200",
+        "category": "Serving Items"
+      },
+      {
+        "id": "htw202452",
+        "name": "Steel Turner",
+        "description": "Portable table for outdoor events.",
+        "image": "/images/product (52).jpg",
+        "price": "85",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202453",
+        "name": "Shrikhand Aluminium and Steel Box",
+        "description": "Stylish tumbler for drinks.",
+        "image": "/images/product (53).jpg",
+        "price": "15",
+        "dimensions": "1800x1200",
+        "category": "Bakery And Kitchen Items"
+      },
+      {
+        "id": "htw202454",
+        "name": "Chimney 1",
+        "description": "Customizable aluminum sign for businesses.",
+        "image": "/images/product (54).jpg",
+        "price": "65",
+        "dimensions": "1800x1200",
+        "category": "Industrial And Commerical Chimney"
+      },
+      {
+        "id": "htw202455",
+        "name": "Chimney 2",
+        "description": "Classic tin toy car for children.",
+        "image":"/images/product (55).jpg" ,
+        "price": "25",
+        "dimensions": "1800x1200",
+        "category": "Industrial And Commerical Chimney"
+      }
+    ]
+  }
+  

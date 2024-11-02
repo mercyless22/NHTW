@@ -1,0 +1,71 @@
+/* Contact section styling */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f0f4f8;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+.contact-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Contact cards */
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card i {
+    color: #d4af37;
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.contact-card p {
+    font-size: 1rem;
+    color: #d4af37;
+}
+
+/* Contact links */
+.phone-link, .email-link {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.phone-link:hover, .email-link:hover {
+    text-decoration: underline;
+    color:#b8912a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 20px 10px;
+    }
+
+    .contact-card {
+        margin-bottom: 20px;
+    }
+}
