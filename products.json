@@ -4,7 +4,7 @@
         "id": "htw202401",
         "name": "Steel Container",
         "description": "A high-quality tin container for industrial use.",
-        "image": "/NHTW/images/product (1).webp",
+        "image": "/images/product (1).webp",
         "price": "50",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -13,7 +13,7 @@
         "id": "htw202402",
         "name": "Chilly Cutter Box",
         "description": "Durable aluminum sheets for roofing and construction.",
-        "image": "/NHTW/images/product (2).webp",
+        "image": "/images/product (2).webp",
         "price": "75",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -22,7 +22,7 @@
         "id": "htw202403",
         "name": "Pizaa Cutter",
         "description": "Perfect for storing food items securely.",
-        "image": "/NHTW/images/product (3).webp",
+        "image": "/images/product (3).webp",
         "price": "30",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -31,7 +31,7 @@
         "id": "htw202404",
         "name": "Bakery All Items",
         "description": "Heavy-duty aluminum foil for cooking and storage.",
-        "image": "/NHTW/images/product (4).webp",
+        "image": "/images/product (4).webp",
         "price": "20",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -40,7 +40,7 @@
         "id": "htw202405",
         "name": "Galvanized Kirana Box ",
         "description": "A rust-resistant bucket, ideal for all uses.",
-        "image": "/NHTW/images/product (5).webp",
+        "image": "/images/product (5).webp",
         "price": "15",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -49,7 +49,7 @@
         "id": "htw202406",
         "name": "Galvanize Drip Tray",
         "description": "Lightweight and sturdy aluminum ladder.",
-        "image": "/NHTW/images/product (6).webp",
+        "image": "/images/product (6).webp",
         "price": "150",
         "dimensions": "1800x1200",
         "category": "Serving Items"
@@ -58,7 +58,7 @@
         "id": "htw202407",
         "name": "Stainless Steel Kathrot",
         "description": "Perfect for craft and industrial applications.",
-        "image": "/NHTW/images/product (7).webp",
+        "image": "/images/product (7).webp",
         "price": "40",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -67,7 +67,7 @@
         "id": "htw202408",
         "name": "Steel Grain Storage BOx",
         "description": "Versatile aluminum profiles for construction.",
-        "image": "/NHTW/images/product (8).webp",
+        "image": "/images/product (8).webp",
         "price": "100",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -76,7 +76,7 @@
         "id": "htw202409",
         "name": "Galvanized Grain Storage Box",
         "description": "Elegant tin tray for serving and decor.",
-        "image": "/NHTW/images/product (9).webp",
+        "image": "/images/product (9).webp",
         "price": "25",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -85,7 +85,7 @@
         "id": "htw202410",
         "name": "Box Stand",
         "description": "Ideal for beverages and food storage.",
-        "image": "/NHTW/images/product (10).webp",
+        "image": "/images/product (10).webp",
         "price": "10",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -94,7 +94,7 @@
         "id": "htw202411",
         "name": "Bank Security Trunk",
         "description": "Essential tool for pouring liquids with precision.",
-        "image": "/NHTW/images/product (11).webp",
+        "image": "/images/product (11).webp",
         "price": "18",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -103,7 +103,7 @@
         "id": "htw202412",
         "name": "Tata Galvanized Grain Storage Box",
         "description": "Lightweight and durable window frames.",
-        "image": "/NHTW/images/product (12).webp",
+        "image": "/images/product (12).webp",
         "price": "85",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -112,7 +112,7 @@
         "id": "htw202413",
         "name": "400Kg Grain Storage Box",
         "description": "Robust dustpan for efficient cleaning.",
-        "image": "/NHTW/images/product (13).webp",
+        "image": "/images/product (13).webp",
         "price": "12",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -121,7 +121,7 @@
         "id": "htw202414",
         "name": "240 Kg Steel Grain Storage Box",
         "description": "Stylish aluminum railing for staircases.",
-        "image": "/NHTW/images/product (14).webp",
+        "image": "/images/product (14).webp",
         "price": "120",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -130,7 +130,7 @@
         "id": "htw202415",
         "name": "Stainless Steel Milk Can",
         "description": "Classic tin ashtray for home or office.",
-        "image": "/NHTW/images/product (15).webp",
+        "image": "/images/product (15).webp",
         "price": "10",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -139,7 +139,7 @@
         "id": "htw202416",
         "name": "200kg Steel Grain Storage Box",
         "description": "Durable exhaust pipe for vehicles.",
-        "image": "/NHTW/images/product (16).webp",
+        "image": "/images/product (16).webp",
         "price": "95",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -148,7 +148,7 @@
         "id": "htw202417",
         "name": "Heavy Duty Galvanized Box (200Kg)",
         "description": "Perfect for straining liquids or solids.",
-        "image": "/NHTW/images/product (17).webp",
+        "image": "/images/product (17).webp",
         "price": "22",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -157,7 +157,7 @@
         "id": "htw202418",
         "name": "Heavy Duty Galvanized Box (300Kg)",
         "description": "Keeps your beverages hot or cold.",
-        "image": "/NHTW/images/product (18).webp",
+        "image": "/images/product (18).webp",
         "price": "35",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -166,7 +166,7 @@
         "id": "htw202419",
         "name": "Steel Grocery Store Box",
         "description": "Stylish lunch box for meals on the go.",
-        "image": "/NHTW/images/product (19).webp",
+        "image": "/images/product (19).webp",
         "price": "28",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -175,7 +175,7 @@
         "id": "htw202420",
         "name": "Ghughra Container",
         "description": "For organizing electrical cables safely.",
-        "image": "/NHTW/images/product (20).webp",
+        "image": "/images/product (20).webp",
         "price": "60",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -184,7 +184,7 @@
         "id": "htw202421",
         "name": "Amplifier Box",
         "description": "Ideal for chilling beverages at parties.",
-        "image": "/NHTW/images/product (21).webp",
+        "image": "/images/product (21).webp",
         "price": "45",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -193,7 +193,7 @@
         "id": "htw202422",
         "name": "Caterers Plate & Bowl Box",
         "description": "Durable plates for food serving.",
-        "image": "/NHTW/images/product (22).webp",
+        "image": "/images/product (22).webp",
         "price": "55",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -202,7 +202,7 @@
         "id": "htw202423",
         "name": "Sweets Tray & Chowki",
         "description": "Versatile bowl for cooking and serving.",
-        "image": "/NHTW/images/product (23).webp",
+        "image": "/images/product (23).webp",
         "price": "20",
         "dimensions": "1800x1200",
         "category": "Serving Items"
@@ -211,7 +211,7 @@
         "id": "htw202424",
         "name": "Imitation Drum",
         "description": "Sturdy storage solution for various items.",
-        "image": "/NHTW/images/product (24).webp",
+        "image": "/images/product (24).webp",
         "price": "65",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -220,7 +220,7 @@
         "id": "htw202425",
         "name": "Wiring Storage Box",
         "description": "Perfect for accurate measurements in cooking.",
-        "image": "/NHTW/images/product (25).webp",
+        "image": "/images/product (25).webp",
         "price": "18",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -229,7 +229,7 @@
         "id": "htw202426",
         "name": "Bakery Tray & Chowki",
         "description": "Heavy-duty scoop for bulk items.",
-        "image": "/NHTW/images/product (26).webp",
+        "image": "/images/product (26).webp",
         "price": "12",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -238,7 +238,7 @@
         "id": "htw202427",
         "name": "Wiring Storage Box",
         "description": "Unique decorative pieces for home.",
-        "image": "/NHTW/images/product (27).webp",
+        "image": "/images/product (27).webp",
         "price": "30",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -247,7 +247,7 @@
         "id": "htw202428",
         "name": "6 Fan Storage Box",
         "description": "Store your ladder safely and securely.",
-        "image": "/NHTW/images/product (28).webp",
+        "image": "/images/product (28).webp",
         "price": "80",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -256,7 +256,7 @@
         "id": "htw202429",
         "name": "Clothes Trunk",
         "description": "Elegant holder for candles.",
-        "image": "/NHTW/images/product (29).webp",
+        "image": "/images/product (29).webp",
         "price": "16",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -265,7 +265,7 @@
         "id": "htw202430",
         "name": "File Box",
         "description": "Durable hinges for doors and gates.",
-        "image": "/NHTW/images/product (30).webp",
+        "image": "/images/product (30).webp",
         "price": "25",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -274,7 +274,7 @@
         "id": "htw202431",
         "name": "6 Fan Storage Box",
         "description": "Stylish frames for photos or artwork.",
-        "image": "/NHTW/images/product (31).webp",
+        "image": "/images/product (31).webp",
         "price": "32",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -283,7 +283,7 @@
         "id": "htw202432",
         "name": "Round Hole Tub",
         "description": "Finishing touches for your projects.",
-        "image": "/NHTW/images/product (32).webp",
+        "image": "/images/product (32).webp",
         "price": "28",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -292,7 +292,7 @@
         "id": "htw202433",
         "name": "Soup Bowl Caterers Storage Box",
         "description": "Charming decor for outdoor spaces.",
-        "image": "/NHTW/images/product (33).webp",
+        "image": "/images/product (33).webp",
         "price": "40",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -301,7 +301,7 @@
         "id": "htw202434",
         "name": "Bank Security Trunk",
         "description": "Versatile mesh for various applications.",
-        "image": "/NHTW/images/product (34).webp",
+        "image": "/images/product (34).webp",
         "price": "55",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -310,7 +310,7 @@
         "id": "htw202435",
         "name": "Steel Drip Tray",
         "description": "Decorative tin box for gifting.",
-        "image": "/NHTW/images/product (35).webp",
+        "image": "/images/product (35).webp",
         "price": "22",
         "dimensions": "1800x1200",
         "category": "Serving Items"
@@ -319,7 +319,7 @@
         "id": "htw202436",
         "name": "IceCream Container",
         "description": "Strong panels for various applications.",
-        "image": "/NHTW/images/product (36).webp",
+        "image": "/images/product (36).webp",
         "price": "90",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -328,7 +328,7 @@
         "id": "htw202437",
         "name": "Stainless Steel Donation Box",
         "description": "Stylish tin necklace for everyday wear.",
-        "image": "/NHTW/images/product (37).webp",
+        "image": "/images/product (37).webp",
         "price": "15",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -337,7 +337,7 @@
         "id": "htw202438",
         "name": "Galvanize Tray Set",
         "description": "Elegant box for storing jewelry.",
-        "image": "/NHTW/images/product (38).webp",
+        "image": "/images/product (38).webp",
         "price": "35",
         "dimensions": "1800x1200",
         "category": "Serving Items"
@@ -346,7 +346,7 @@
         "id": "htw202439",
         "name": "Steel Tray Set",
         "description": "Collectible tin model of classic cars.",
-        "image": "/NHTW/images/product (39).webp",
+        "image": "/images/product (39).webp",
         "price": "50",
         "dimensions": "1800x1200",
         "category": "Serving Items"
@@ -355,7 +355,7 @@
         "id": "htw202440",
         "name": "Bakery Colour Coated Boxes",
         "description": "Handy holder for cans and bottles.",
-        "image": "/NHTW/images/product (40).webp",
+        "image": "/images/product (40).webp",
         "price": "10",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -364,7 +364,7 @@
         "id": "htw202441",
         "name": "Steel Stove",
         "description": "Stylish pot for indoor plants.",
-        "image": "/NHTW/images/product (41).webp",
+        "image": "/images/product (41).webp",
         "price": "20",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -373,7 +373,7 @@
         "id": "htw202442",
         "name": "Grocery Store Box",
         "description": "Lightweight dustpan for easy cleanup.",
-        "image": "/NHTW/images/product (42).webp",
+        "image": "/images/product (42).webp",
         "price": "15",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -382,7 +382,7 @@
         "id": "htw202443",
         "name": "Bain Marie",
         "description": "Charming lantern for outdoor spaces.",
-        "image": "/NHTW/images/product (43).webp",
+        "image": "/images/product (43).webp",
         "price": "35",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -391,7 +391,7 @@
         "id": "htw202444",
         "name": "Steel Box",
         "description": "Perfect for baking and roasting.",
-        "image": "/NHTW/images/product (44).webp",
+        "image": "/images/product (44).webp",
         "price": "25",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -400,7 +400,7 @@
         "id": "htw202445",
         "name": "Iron Stove",
         "description": "Fun shapes for baking cookies.",
-        "image": "/NHTW/images/product (45).webp",
+        "image": "/images/product (45).webp",
         "price": "10",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -409,7 +409,7 @@
         "id": "htw202446",
         "name": "Bakery Colour Coated Boxes",
         "description": "Durable grill for outdoor cooking.",
-        "image": "/NHTW/images/product (46).webp",
+        "image": "/images/product (46).webp",
         "price": "150",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -418,7 +418,7 @@
         "id": "htw202447",
         "name": "Transparent Donation Box",
         "description": "Keeps your bread fresh and protected.",
-        "image": "/NHTW/images/product (47).webp",
+        "image": "/images/product (47).webp",
         "price": "45",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -427,7 +427,7 @@
         "id": "htw202448",
         "name": "Boxes According To Size",
         "description": "Stylish rack for storing wine bottles.",
-        "image": "/NHTW/images/product (48).webp",
+        "image": "/images/product (48).webp",
         "price": "120",
         "dimensions": "1800x1200",
         "category": "Other Miscellaneous"
@@ -436,7 +436,7 @@
         "id": "htw202449",
         "name": "Running Colour Coated Box",
         "description": "Elegant platter for serving food.",
-        "image": "/NHTW/images/product (49).webp",
+        "image": "/images/product (49).webp",
         "price": "30",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -445,7 +445,7 @@
         "id": "htw202450",
         "name": "Bakery Colour Coated Boxes",
         "description": "Sturdy workbench for various projects.",
-        "image": "/NHTW/images/product (50).webp",
+        "image": "/images/product (50).webp",
         "price": "200",
         "dimensions": "1800x1200",
         "category": "Storage Solutions"
@@ -454,7 +454,7 @@
         "id": "htw202451",
         "name": "Partitioned Tray",
         "description": "Cute tin bank for saving coins.",
-        "image": "/NHTW/images/product (51).webp",
+        "image": "/images/product (51).webp",
         "price": "18",
         "dimensions": "1800x1200",
         "category": "Serving Items"
@@ -463,7 +463,7 @@
         "id": "htw202452",
         "name": "Steel Turner",
         "description": "Portable table for outdoor events.",
-        "image": "/NHTW/images/product (52).webp",
+        "image": "/images/product (52).webp",
         "price": "85",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -472,7 +472,7 @@
         "id": "htw202453",
         "name": "Shrikhand Aluminium and Steel Box",
         "description": "Stylish tumbler for drinks.",
-        "image": "/NHTW/images/product (53).webp",
+        "image": "/images/product (53).webp",
         "price": "15",
         "dimensions": "1800x1200",
         "category": "Bakery And Kitchen Items"
@@ -481,7 +481,7 @@
         "id": "htw202454",
         "name": "Chimney 1",
         "description": "Customizable aluminum sign for businesses.",
-        "image": "/NHTW/images/product (54).webp",
+        "image": "/images/product (54).webp",
         "price": "65",
         "dimensions": "1800x1200",
         "category": "Industrial And Commerical Chimney"
@@ -490,7 +490,7 @@
         "id": "htw202455",
         "name": "Chimney 2",
         "description": "Classic tin toy car for children.",
-        "image":"/NHTW/images/product (55).webp" ,
+        "image":"/images/product (55).webp" ,
         "price": "25",
         "dimensions": "1800x1200",
         "category": "Industrial And Commerical Chimney"
