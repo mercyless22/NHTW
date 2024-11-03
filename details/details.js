@@ -12,7 +12,7 @@ function loadProductDetails() {
         return;
     }
 
-    fetch('/products.json')  // Path to your JSON file
+    fetch('/NHTW/products.json')  // Path to your JSON file
         .then(response => response.json())
         .then(data => {
             const products = data.products;
