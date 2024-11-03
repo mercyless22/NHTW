@@ -41,7 +41,7 @@
 
         // Function to fetch and display products dynamically
         function loadProducts() {
-            fetch('/products.json')
+            fetch('./products.json')
                 .then(response => response.json())
                 .then(data => {
                     const productsContainer = document.querySelector('.product-categories .container');
